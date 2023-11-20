@@ -29,6 +29,7 @@ while True:
                 continue
             else:
                 break
+    # convert minutes
     if min >= 60:
         hour = (min-(min%60))/60
         min = min%60
